@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="Ileri_Ders2.Android">
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDf-IuvBfvUEKjeRZPe50R1U6OUrC7nILM"></meta-data>
+	</application>
+</manifest>

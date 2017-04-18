@@ -1,0 +1,2 @@
+C:\4TheWall\Ders4\Ders4\Ders4.UWP\Ders4.UWP.csproj;x86
+C:\4TheWall\Ders4\Ders4\Ders4\Ders4.csproj;neutral

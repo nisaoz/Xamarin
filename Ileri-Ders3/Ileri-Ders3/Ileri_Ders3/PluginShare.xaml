@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ileri_Ders3.PluginShare">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtTitle" Placeholder="Title"></Entry>
+            <Entry x:Name="txtMessage" Placeholder="Message"></Entry>
+            <Entry x:Name="txtUrl" Placeholder="URL"></Entry>
+            <Button x:Name="btnShare" Text="Paylaş" Clicked="btnShare_Clicked"></Button>
+            <Button x:Name="btnCopy" Text="Kopyala" Clicked="btnCopy_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ders2.Views.SpecialPage">
+    <ContentPage.Content>
+        <TableView Intent="Form">
+            <TableRoot>
+                <TableSection Title="Deneme" >
+                    <SwitchCell Text="Xamarin" On="True"></SwitchCell>
+                    <EntryCell Label="Adres:" LabelColor="Fuchsia"
+                               Placeholder="Internet adresinizi giriniz:"
+                               Keyboard="Url">
+                    </EntryCell>
+                    <ImageCell ></ImageCell>
+                    <TextCell Text="Deneme" TextColor="Fuchsia"
+                              Detail="2. Hafta">
+                    </TextCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

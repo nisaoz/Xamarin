@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muhi.MasterPages.MyMenu">
+  <StackLayout BackgroundColor="White">
+    
+    <StackLayout Padding="5">
+      <Image Source="icon2.png" VerticalOptions ="Center" HorizontalOptions ="Center"> </Image>
+    </StackLayout>
+
+    <StackLayout Padding ="10" VerticalOptions="CenterAndExpand" Spacing="20">
+      <Label Text ="Eğitimler" TextColor="Pink"> </Label>
+      <Label Text ="İlk 10" TextColor="Pink"> </Label>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal" HeightRequest="20"
+                 HorizontalOptions="Center"
+                 VerticalOptions="End" Padding="0,0,0,30">
+      <Label Text="www.google.com" TextColor="Pink"> </Label>
+    </StackLayout>
+    
+  </StackLayout>
+</ContentPage>

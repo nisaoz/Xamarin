@@ -1,0 +1,2 @@
+C:\4TheWall\Ileri-Ders1\Ileri-Ders1\Ileri_Ders1.UWP\Ileri_Ders1.UWP.csproj;x86
+C:\4TheWall\Ileri-Ders1\Ileri-Ders1\Ileri_Ders1\Ileri_Ders1.csproj;neutral

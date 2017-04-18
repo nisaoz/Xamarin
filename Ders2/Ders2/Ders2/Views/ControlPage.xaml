@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ders2.Views.ControlPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button x:Name="btn_click" Text="Click" Clicked="btn_click_Clicked"></Button>
+                <ActivityIndicator x:Name="activity" IsRunning="False"></ActivityIndicator>
+                <DatePicker x:Name="myDatePicker" ></DatePicker>
+                <Entry FontAttributes="Bold" FontFamily="Calibri" FontSize="24"
+                   HorizontalTextAlignment="Center" Placeholder="Deneme" 
+                   PlaceholderColor="Red" TextColor="Black" Keyboard="Numeric" IsPassword="True">
+                </Entry>
+                <Editor FontAttributes="Bold" FontFamily="Calibri" FontSize="14"
+                    BackgroundColor="Blue" HeightRequest="50">
+                </Editor>
+                <Picker Title="Xamarin" SelectedIndexChanged="onPicker_Changed">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                    </Picker.Items>
+                </Picker>
+                <ProgressBar x:Name="processBar" Progress=".3"></ProgressBar>
+                <Slider x:Name="slider" Minimum="0" Maximum="100" Value="50"></Slider>
+                <Label BindingContext="{x:Reference slider}"
+                   FontSize="Large" HorizontalOptions="Center" x:Name="lbl_slider"
+                   Text="{Binding Value, StringFormat='{0:F0}'}">
+                </Label>
+                <Stepper x:Name="stepper" Minimum="5" Maximum="100"
+                     Increment="5" ValueChanged="Stepper_ValueChanged">
+                </Stepper>
+                <Label x:Name="lbl_stepper" FontSize="Large"
+                   HorizontalOptions="Center" TextColor="Green">
+                </Label>
+                <Switch IsToggled="False" Toggled="Switch_Toggled"></Switch>
+                <TimePicker></TimePicker>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
